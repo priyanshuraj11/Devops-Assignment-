@@ -1,0 +1,12 @@
+.venv/
+.jenkins-venv/
+__pycache__/
+*.pyc
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+terraform.zip
+terraform-install/
+*.log
