@@ -53,30 +53,30 @@ devops-lab2/
 
 ```text
 Application Source
-      |
-      v
-    Docker
-      |
-      +--> Docker Hub: axdy02/devops-lab2:v1 / v2
-      |
-      v
+     |
+     v
+   Docker
+     |
+     +--> Docker Hub: priyanshu02/devops-lab2:v1 / v2
+     |
+     v
 GitHub Repository
-      |
-      v
-    Jenkins
-      |
-      | kubectl apply
-      v
+     |
+     v
+   Jenkins
+     |
+     | kubectl apply
+     v
 Minikube / Kubernetes
-      |
-      v
-  Deployment
-   /      \
- Pod      Pod
-   \      /
-    Service
-      |
-      v
+     |
+     v
+ Deployment
+  /      \
+Pod      Pod
+  \      /
+   Service
+     |
+     v
 Flask Application
 ```
 
@@ -101,7 +101,7 @@ Flask Application
 - Docker image layers were inspected with `docker history`.
 - `v1` and `latest` image tags were demonstrated.
 - A Flask + Redis multi-container stack ran with Docker Compose.
-- `axdy02/devops-lab2:v1` and `v2` were pushed to Docker Hub.
+- `priyanshu02/devops-lab2:v1` and `v2` were pushed to Docker Hub.
 - Container-local data loss after deletion was demonstrated.
 - A named Docker volume preserved data across container replacement.
 - A bind mount demonstrated host-to-container and container-to-host file sharing.
@@ -112,7 +112,7 @@ Flask Application
 - A rolling update changed the application from v1 to v2.
 - Kubernetes rollback restored the previous revision.
 - Jenkins successfully checked out the repository, applied the Kubernetes manifests, waited for rollout completion, verified resources, and finished with `SUCCESS`.
-- The final captured Kubernetes state shows two running pods using `axdy02/devops-lab2:v2`.
+- The final captured Kubernetes state shows two running pods using `priyanshu02/devops-lab2:v2`.
 
 ## Documentation
 
