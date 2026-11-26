@@ -1,0 +1,22 @@
+services:
+  blue:
+    build:
+      context: ..
+    environment:
+      APP_VERSION: v1
+
+  green:
+    build:
+      context: ..
+    environment:
+      APP_VERSION: v2
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "127.0.0.1:8087:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - blue
+      - green

@@ -1,0 +1,41 @@
+screenshot,question,file,original_media,sha256,title
+S01,1,screenshots/s01-six-local-tests-pass.png,image1.png,5cd2519d45fff7d2cab3bbe9cf986dbcfa515a82667ab31776ca2877414a7a82,Six local tests pass
+S02,1,screenshots/s02-initial-repository-push.png,image2.png,cc1b2828cd89f441cb37bca9d6d8a94facd2616841cabee7556e1f4e6cdd0182,Initial repository push
+S03,1,screenshots/s03-initial-project-files-on-github.png,image3.png,9caf6673fad30b6b6d57aa0fe49fde225c54c5b9bb3a44734c121f0e61ad899e,Initial project files on GitHub
+S04,1,screenshots/s04-jenkins-starts-the-first-pipeline-run.png,image4.png,5570d5dbc453b69cec228c90c6a14bbe432ff609b3de3ce06d91c3d2147be470,Jenkins starts the first pipeline run
+S05,1,screenshots/s05-passing-tests-allow-the-approval-stage.png,image5.png,4024de4e7546aca715f1b9ea91f9c1b6061799cf9463460f5e423b6c8b32e3b5,Passing tests allow the approval stage
+S06,1,screenshots/s06-a-deliberate-failing-assertion-is-committed.png,image6.png,c81dcf885b6def4748229cd0f4d286f6319d7ee5ad210f96b2eea3b3f6055312,A deliberate failing assertion is committed
+S07,1,screenshots/s07-jenkins-checks-out-the-failure-demonstration.png,image7.png,2d862be041f40f0f589f1c8a5da242d81dc5380149d7e3783bbae78b30ee4586,Jenkins checks out the failure demonstration
+S08,1,screenshots/s08-a-failed-test-blocks-downstream-stages.png,image8.png,be3498dff357b284ed7c98366feef9b815f36f8ee1386072a73d3f358f963239,A failed test blocks downstream stages
+S09,1,screenshots/s09-the-correct-assertion-is-restored.png,image9.png,34b6642e2408a6b4e5d7a80f412b9748020db0367a72a2f5ede47912a71207c7,The correct assertion is restored
+S10,1,screenshots/s10-jenkins-checks-out-the-restored-tests.png,image10.png,d8b6416a6ca682926667c2320aa1d180717325c5b47366bb7b3a814bf8e7e055,Jenkins checks out the restored tests
+S11,1,screenshots/s11-the-restored-pipeline-succeeds.png,image11.png,9e25f116c24e495a0f18f6e57fb8e6e4a820d2e85d4c056a0209fd7548d4ad87,The restored pipeline succeeds
+S12,2,screenshots/s12-blue-and-green-services-start.png,image12.png,384b037ab924cf0e272b963cb3f55d8cde1204f00a2149f545c7357d3f40a285,Blue and Green services start
+S13,2,screenshots/s13-the-initial-endpoint-serves-version-v1.png,image13.png,c2f6abc777b7a3c9f0ce6eed7954796b64aabdb9190a046bbc42c2d04c211a91,The initial endpoint serves version v1
+S14,2,screenshots/s14-green-is-healthy-but-the-endpoint-remains-on-v1.png,image14.png,88a183eaf081aa39a419ce7b1b5dd1c2bf4e3efb08a023fe25c5174208ca02f1,Green is healthy but the endpoint remains on v1
+S15,2,screenshots/s15-the-visible-request-sample-returns-http-200.png,image15.png,da5f9acca60d3cf7c65172c0b9263861c4ad3fd50f753241ee34db917ff4672a,The visible request sample returns HTTP 200
+S16,2,screenshots/s16-the-configuration-is-edited-back-toward-blue.png,image16.png,a10d41980febc06cf81f878a1a875368af25afa1a66aac4a6faae92b94b2c6cc,The configuration is edited back toward Blue
+S17,3,screenshots/s17-the-canary-services-start.png,image17.png,ec816dc48f928eede7cbc3d73d56353a9be64819744eb279a0be4aa73cb73fa1,The Canary services start
+S18,3,screenshots/s18-a-100-request-sample-confirms-the-90-to-10-split.png,image18.png,097502b3b09d6813323088dcba4e3a8e2195bcc20d62e99d53d46d07d0790751,A 100-request sample confirms the 90 to 10 split
+S19,3,screenshots/s19-a-change-to-70-and-30-weights-is-attempted.png,image19.png,2d8ddee5b2a3935128bdff4c4d0537b2d387ba08ede78156eb977ce9b2548de4,A change to 70 and 30 weights is attempted
+S20,3,screenshots/s20-the-later-sample-still-reports-90-to-10.png,image20.png,1b8332f50731c9e8c4da3614a9c2bc9700ea62382c7496ff15837b7a5c5f3960,The later sample still reports 90 to 10
+S21,4,screenshots/s21-argo-cd-components-are-running.png,image21.png,4a119ecf74dc538f4da3fc78dfa28fd5627a86ecd61bd9781bc5672103d0ae0f,Argo CD components are running
+S22,4,screenshots/s22-the-argo-cd-login-page-is-reachable.png,image22.png,25f5eb3b800e7a66c8b4848fec2a21f915850221526b444e748e576d1e4dc6f2,The Argo CD login page is reachable
+S23,4,screenshots/s23-the-initial-argo-cd-applications-view.png,image23.png,d91c5186ab842a58225c7694d4643ef85c249ac6ee10a5cdc7ad6939484f63d6,The initial Argo CD applications view
+S24,4,screenshots/s24-declarative-deployment-files-are-committed.png,image24.png,230c90e3165ba3ecd523bc73d0af0aa477e9b3c19fd506824b6b3b404705feea,Declarative deployment files are committed
+S25,4,screenshots/s25-the-gitops-application-is-healthy-and-synced.png,image25.png,1124274672faee474d02a4978256c6b02705287f625d0822ca839decc37b4646,The GitOps application is Healthy and Synced
+S26,4,screenshots/s26-the-initial-deployment-has-two-ready-replicas.png,image26.png,efdd302281d2aca14acdd31beabdb103b806f66685e394b10265811124043633,The initial deployment has two ready replicas
+S27,4,screenshots/s27-the-two-replica-state-is-checked-again.png,image27.png,0004b609682fc38a5980dcc1fb9c89d20dc599f7e5cd28abdfaaef75079b8b5c,The two-replica state is checked again
+S28,4,screenshots/s28-three-replicas-become-ready.png,image28.png,e96b3c2de9ad2955687474428214c30559f6115afdae03cee828165b89e16334,Three replicas become ready
+S29,5,screenshots/s29-the-jenkins-credential-is-registered.png,image29.png,92bb799eece0445a402e621bcd41e9ad5e2f94ff51e3b975611b3895d0ffa720,The Jenkins credential is registered
+S30,5,screenshots/s30-jenkins-loads-the-credential-without-printing-its-value.png,image30.png,9b5c1d408cfc7cfb51257d5416f12fee12ad137ceb84e12d88e80637a99485f1,Jenkins loads the credential without printing its value
+S31,5,screenshots/s31-the-pipeline-with-the-secret-stage-succeeds.png,image31.png,cbe41b6dabc9bd7513687761d7b3427e588bab9df68bbce1bb2f165d385c6847,The pipeline with the secret stage succeeds
+S32,5,screenshots/s32-a-kubernetes-pod-confirms-secret-injection.png,image32.png,afcd9f016e625822f5191109df2f9e292c5d24f412a4c2d58d297fca87e2304b,A Kubernetes Pod confirms secret injection
+S33,6,screenshots/s33-the-backup-content-and-checksum-are-recorded.png,image33.png,d875ab84908645b8d69832de568f6d1340efcb9308926cdf5a9f9d8f6ff4ec4b,The backup content and checksum are recorded
+S34,6,screenshots/s34-the-deleted-test-file-is-restored.png,image34.png,ca54c19a74ff57930aa2796e1d84c38e606c55ac1f4894a32125678fc4da1734,The deleted test file is restored
+S35,6,screenshots/s35-the-restored-file-matches-the-backup.png,image35.png,05d3a11e25cf365bdd8d890fb423a45476d95e2962e0c7afc010535cd37ca80f,The restored file matches the backup
+S36,6,screenshots/s36-stopping-blue-produces-a-visible-outage.png,image36.png,52d6c992cee0319c6fda381722582fd077ba66ecfa52e2b39af39e4dcc47b7e9,Stopping Blue produces a visible outage
+S37,6,screenshots/s37-the-proxy-still-times-out-while-green-is-running.png,image37.png,1f74f5d250e9f283b30c2936968b009a1e4dc4c00c99208d50fef342803d396e,The proxy still times out while Green is running
+S38,6,screenshots/s38-troubleshooting-finds-an-upstream-configuration-problem.png,image38.png,446963e1030f3e2964756a2003201895f9f6580b7591ed0010728d2a73a2b80d,Troubleshooting finds an upstream configuration problem
+S39,6,screenshots/s39-the-endpoint-recovers-on-green.png,image39.png,64ecefba766427ea1499496fbe9cc00526e752478856130414a5595d3cff0d46,The endpoint recovers on Green
+S40,7,screenshots/s40-the-final-repository-includes-the-documentation.png,image40.png,c24504980e3fd9d5c8951ffdc10462e5756e4a103e09669f01c7ebcc498f7692,The final repository includes the documentation
