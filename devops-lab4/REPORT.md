@@ -1,6 +1,5 @@
 # DevOps Lab 4 — Advanced Deployment Strategies & Enterprise DevOps
 
-**Repository:** https://github.com/axdy02/devops-lab4  
 **Environment:** Windows 11, WSL2 Ubuntu, Docker, Jenkins, Kubernetes (Minikube), Argo CD
 
 ## 1. Objective
